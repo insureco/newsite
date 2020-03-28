@@ -30,7 +30,7 @@ export class MarketsComponent implements OnInit, OnDestroy {
     var body = document.getElementsByTagName("body")[0];
     body.classList.add("markets-page");
     var navbar = document.getElementById("navbar-main");
-    navbar.classList.add("bg-default");
+    navbar.classList.add("bg-primary");
 
 
     // Carousel

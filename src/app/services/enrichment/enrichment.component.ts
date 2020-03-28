@@ -30,7 +30,7 @@ export class EnrichmentComponent implements OnInit, OnDestroy {
     var body = document.getElementsByTagName("body")[0];
     body.classList.add("enrichment-page");
     var navbar = document.getElementById("navbar-main");
-    navbar.classList.add("bg-default");
+    navbar.classList.add("bg-primary");
 
 
     // Carousel
@@ -213,6 +213,6 @@ export class EnrichmentComponent implements OnInit, OnDestroy {
     var body = document.getElementsByTagName("body")[0];
     body.classList.remove("enrichment-page");
     var navbar = document.getElementById("navbar-main");
-    navbar.classList.remove("bg-default");
+    navbar.classList.remove("bg-primary");
   }
 }
